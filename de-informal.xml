@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: de-informal.xml 1541 2010-08-20 16:12:51Z TobiasH87 $ -->
+<language languagecode="de-informal">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.filebase.index.statsinfo"><![CDATA[StatsInfo]]></item>
+		<item name="wcf.acp.option.category.filebase.index.statsinfo.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.index_statsinfo_enable"><![CDATA[Informationen anzeigen]]></item>
+		<item name="wcf.acp.option.index_statsinfo_enable.description"><![CDATA[Sollen Informationen angezeigt werden?]]></item>
+		<item name="wcf.acp.option.index_statsinfo_link_enable"><![CDATA[Link aktivieren?]]></item>
+		<item name="wcf.acp.option.index_statsinfo_link_enable.description"><![CDATA[Willst du die Informationen mit weiteren Informationen verlinken?, dann aktiviere diese Option.]]></item>
+		<item name="wcf.acp.option.index_statsinfo_link"><![CDATA[Link]]></item>
+		<item name="wcf.acp.option.index_statsinfo_link.description"><![CDATA[Hier den gewünschten Link eingeben.]]></item>
+	</category>
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.user.filebase.canViewStatsInfo"><![CDATA[Kann Informationen sehen]]></item>
+		<item name="wcf.acp.group.option.user.filebase.canViewStatsInfo.description"><![CDATA[]]></item>
+	</category>
+	<category name="mfcfb.index">
+		<item name="mfcfb.index.statsinfo"><![CDATA[Informationen:]]></item>
+		<item name="mfcfb.index.statsinfo.description"><![CDATA[Die Downloads auf dieser Seite durchstöberst du in den einzelnen Kategorien oder mit Hilfe der Suche.<br />
+Desweiteren gibt es die Möglichkeit drei <strong>Paketserver</strong> mit folgenden URLs in der Administrationsoberfläche Ihres WCF einzutragen:<br />
+Stable:	<a href="{@PAGE_URL}/packages/index.php?packageVersionType=stable" class="externalURL">{@PAGE_URL}/packages/</a><br />
+Testing:	<a href="{@PAGE_URL}/packages/index.php?packageVersionType=testing" class="externalURL">{@PAGE_URL}/packages/testing/</a><br />
+Unstable:	<a href="{@PAGE_URL}/packages/index.php?packageVersionType=unstable" class="externalURL">{@PAGE_URL}/packages/unstable/</a>]]></item>
+	</category>
+</language>

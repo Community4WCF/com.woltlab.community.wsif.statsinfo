@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: package.xml 1824 2011-08-28 14:07:15Z TobiasH87 $ -->
+<package name="com.woltlab.community.wsif.statsinfo">
+	<packageinformation>
+		<packagename><![CDATA[WSIF StatsInfo for PackageServer ]]></packagename>
+		<packagename language="de"><![CDATA[WSIF StatsInfo for PackageServer ]]></packagename>
+		<packagename language="de-informal"><![CDATA[WSIF StatsInfo for PackageServer ]]></packagename>
+		<packagedescription><![CDATA[]]></packagedescription>
+		<packagedescription language="de"><![CDATA[Zeigt auf der Startseite der Filebase eine Information an, mit Paketserver URL.]]></packagedescription>
+		<packagedescription language="de-informal"><![CDATA[Zeigt auf der Startseite der Filebase eine Information an, mit Paketserver URL.]]></packagedescription>
+		<version>2.0.0</version> <!-- codename: StatsInfo for PackageServer -->
+		<packageurl><![CDATA[http://community4wcf.de]]></packageurl>
+		<date>2010-05-12</date>
+		<isunique>0</isunique>
+		<standalone>0</standalone>
+		<plugin>com.wcfsolutions.wsif</plugin>
+	</packageinformation>
+	
+	<licenseinformation>
+		<license><![CDATA[Exclusive]]></license>
+		<licenseURL><![CDATA[]]></licenseURL>
+	</licenseinformation>
+	<authorinformation>
+		<author><![CDATA[TobiasH]]></author>
+		<authorURL><![CDATA[https://www.woltlab.com/forum/index.php?page=User&userID=1331470]]></authorURL>
+	</authorinformation>
+	<requiredpackages>
+		<requiredpackage minversion="2.0.0 Beta 1">com.wcfsolutions.wsif</requiredpackage>
+		<requiredpackage>com.wcfsolutions.wsif.packageUpdateServer</requiredpackage>
+	</requiredpackages>
+	
+	<instructions type="install">
+		<!-- files -->
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<!-- config -->
+		<options>options.xml</options>
+		<eventlistener>eventlistener.xml</eventlistener>
+		<groupoptions>groupoptions.xml</groupoptions>
+		<!-- languages -->
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+		<languages languagecode="en">en.xml</languages>
+	</instructions>
+	<instructions type="update" fromversion="2.0.0 Beta 1">
+		<!-- files -->
+		<templates>templates.tar</templates>
+	</instructions>
+</package>
